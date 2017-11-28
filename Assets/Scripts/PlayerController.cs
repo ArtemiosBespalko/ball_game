@@ -23,6 +23,7 @@ public class PlayerController : MonoBehaviour
     {
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
+        
 
         var movementVector = new Vector3(horizontal, 0f, vertical);
         movementVector = movementVector * speed;
